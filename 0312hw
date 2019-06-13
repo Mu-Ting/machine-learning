@@ -1,1 +1,19 @@
+a = int(input("input x:"))
+b = int(input("input y:"))
+c = int(input("input z:"))
+A=1+a/abs(a)
+B=1+b/abs(b)
+C=1+c/abs(c)
+t=[A,B,C]
+r=(A*4+B*2+C)/2
+#I:+++
+#II:+-+
+#III:--+
+#IV:-++
+#V:++-
+#VI:+--
+#VII:---
+#VIII:-+-
 
+dict = {7: 'I', 5: 'II', 1:'III', 3:'IV', 6:'V', 4:'VI', 0:'VII', 2:'VIII'}
+dict[r]
